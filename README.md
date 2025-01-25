@@ -1,4 +1,4 @@
-# Cookie Clicker (MEAN Stack)
+# Cookie Clicker
 
 This project is a simple Cookie Clicker built using the **MERN Stack** (MongoDB, Express.js, React, Node.js). It features a button that increases the counter when clicked, with a chance to earn additional points and prizes.
 
