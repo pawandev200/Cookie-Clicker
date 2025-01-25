@@ -27,6 +27,7 @@ frontend/
 │── package.json
 │── vite.config.js
 
+
 backend/
 │── jobs/
 │   ├── clickLogic.js   # Handles click logic and rewards
@@ -39,6 +40,9 @@ backend/
 │── server.js           
 │── .env                 
 │── package.json
+
+```
+
 
 ## 🛠️ Tech Stack
 
