@@ -1,29 +1,100 @@
-body {
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212; /* Darker background for better contrast */
+    color: #fff; /* Ensuring text stands out */
+}
+
+/* Centering container */
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered Box Styling */
+.home {
+    background-color: #2d2d2d; /* Darker shade for modern UI */
+    border: 2px solid #444; /* Subtle border */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
     text-align: center;
-    background-color: #f8f9fa;
 }
 
-.click-button {
-    font-size: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #ffcc00;
-    border: none;
-    border-radius: 5px;
+/* Header and Scoreboard Box */
+.scoreboard-box {
+    background-color: #1e1e1e; /* Slightly lighter than background */
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
+/* Header Styling */
+.header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f5f5f5;
+    margin-top: 0.1rem;
+}
+
+/* Scoreboard Styling */
 .scoreboard {
-    margin-top: 20px;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
-.popup {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: white;
-    padding: 20px;
-    border: 1px solid black;
+.scoreboard h2 {
+    font-size: 1.4rem;
+    color: #4caf50; /* Green for success */
+    margin-bottom: 0.5rem;
+    font-weight: bold;
 }
+
+.scoreboard p {
+    margin: 0.4rem 0;
+    font-size: 1.1rem;
+}
+
+/* Button Styling */
+.click-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.3s ease;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(255, 152, 0, 0.3);
+}
+
+.click-button:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
+.click-button:active {
+    transform: scale(0.95);
+}
+
+/* Instructions Styling */
+.instructions {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    color: #bbb;
+}
+
